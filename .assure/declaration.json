@@ -1,0 +1,45 @@
+{
+  "app_objects": [
+    {
+      "factory": "create_app",
+      "module": "app",
+      "name": "app"
+    },
+    {
+      "module": "app.views.main_views",
+      "name": "main_blueprint"
+    }
+  ],
+  "app_roots": [
+    "app"
+  ],
+  "elevation_writers": [],
+  "execution_authorized": false,
+  "hardware_authorized": false,
+  "id": "flask-f3693350e448",
+  "idiom": "flask-session-decorator",
+  "industrial_release_authorized": false,
+  "language": "python",
+  "libraries": [
+    "flask_mail",
+    "flask_migrate",
+    "flask_script",
+    "flask_sqlalchemy",
+    "flask_user",
+    "flask_wtf",
+    "wtforms"
+  ],
+  "physical_validation": false,
+  "public_routes": [
+    {
+      "method": "GET",
+      "path": "/"
+    }
+  ],
+  "registrations_complete": true,
+  "release_allowed": false,
+  "schema": "assure.python-auth.declaration/v1",
+  "self_approved": false,
+  "signout_views": [],
+  "simulation": true
+}
