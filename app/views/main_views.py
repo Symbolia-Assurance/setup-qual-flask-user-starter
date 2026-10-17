@@ -54,3 +54,8 @@ def user_profile_page():
                            form=form)
 
 
+
+
+@main_blueprint.route('/admin/overview')
+def admin_overview():
+    return render_template('main/admin_page.html')
